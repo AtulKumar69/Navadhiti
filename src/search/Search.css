@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  margin: auto;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  width: 45%;
+  height: 500px;
+  align-items: center;
+  margin-top: 10rem;
+  background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+input {
+  margin: auto;
+  margin-top: 10rem;
+  height: 50px;
+  width: 50%;
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input:hover {
+  /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+.list {
+  margin: auto;
+  /* border: 1px solid rgb(79, 72, 72); */
+  margin-top: 2rem;
+  width: 70%;
+  height: auto;
+  align-items: center;
+  border-top: none;
+  font-weight: bold;
+  font-size: 20px;
+}
